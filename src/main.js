@@ -22,6 +22,7 @@ Vue.prototype.isAuth = isAuth     // 权限方法
 moment.locale('zh-cn');
 Vue.prototype.$moment = moment; //时间处理
 
+
 new Vue({
     router,
     store,
